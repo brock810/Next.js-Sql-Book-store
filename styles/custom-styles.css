@@ -1,0 +1,81 @@
+body , h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial'
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.add-link {
+    display: inline-block;
+    background-color: #35a443;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+.add-link:hover {
+    background-color: #35a443;
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-item {
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.book-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.book-author {
+    font-size: 18px;
+    color: #666;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3 ease;
+}
+
+.delete-button:hover {
+    background-color: orange;
+}
